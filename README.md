@@ -2,11 +2,11 @@
 
 ## Descripción de la solución
 
-Este proyecto implementa un sistema de procesamiento de datos utilizando herramientas del ecosistema Big Data, específicamente Apache Spark y Apache Kafka.
+En este proyecto se implementa un sistema de procesamiento de datos utilizando herramientas del ecosistema Big Data, específicamente con Apache Spark y Apache Kafka.
 
-Por un lado, se desarrolla un procesamiento en batch mediante Apache Spark, donde se analizan datos simulados relacionados con accidentes de tránsito en Colombia. A través de estructuras tipo DataFrame, se realizan operaciones de agregación, filtrado y análisis estadístico que permiten identificar patrones como el número de accidentes por ciudad, promedio de heridos y comportamiento de los eventos en función del tipo de vehículo, fecha y hora.
+Estas herramientas, desarrolla un procesamiento en batch mediante Apache Spark, donde se analizan datos simulados relacionados con accidentes de tránsito en Colombia. A través de estructuras tipo DataFrame, se realizan operaciones de agregación, filtrado y análisis estadístico que permiten identificar patrones como el número de accidentes por ciudad, promedio de heridos y comportamiento de los eventos en función del tipo de vehículo, fecha y hora.
 
-Por otro lado, se implementa un sistema de procesamiento en tiempo real utilizando Apache Kafka y Spark Streaming, en el cual se simulan datos de sensores que son enviados de manera continua y procesados en tiempo real, permitiendo visualizar el flujo de datos y su análisis dinámico.
+De tal manera se implementa un sistema de procesamiento en tiempo real utilizando Apache Kafka y Spark Streaming, en el cual se simulan datos de sensores que son enviados de manera continua y procesados en tiempo real, permitiendo visualizar el flujo de datos y su análisis dinámico.
 
 Este enfoque permite evidenciar el uso combinado de procesamiento batch y streaming, cumpliendo con los requerimientos de análisis de datos en entornos Big Data.
 
